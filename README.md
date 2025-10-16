@@ -31,24 +31,16 @@ A full-featured SaaS-style User & Project Management Portal built with React, Vi
 
 1. Clone the repository:
 ```bash
-git clone <repository-url>
-cd user-project-management
+git clone https://github.com/AsifMuhammed00/project-management.git
+
+cd project-management
 ```
 
 2. Install dependencies:
 ```bash
 npm install
 ```
-
-3. Setup MockAPI:
-   - Go to https://mockapi.io
-   - Create a new project
-   - Create two resources:
-     - `users` with fields: name, email, role, phone, department
-     - `projects` with fields: title, description, status, manager, budget, startDate, endDate, team
-   - Update the `API_BASE_URL` in `src/utils/constants.js` with your MockAPI endpoint
-
-4. Start the development server:
+3. Start the development server:
 ```bash
 npm run dev
 ```
